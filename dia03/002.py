@@ -1,6 +1,6 @@
 # te lembrar como funciona lista
 # %%
-lista=[]
+
 lista=['jorge', 'lima', 27, "1.82"]
 
 # %%
