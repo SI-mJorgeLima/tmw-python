@@ -12,3 +12,13 @@ else:
     preço_final = t_sorvete[sorvetetipo] 
 
 print( 'seu sorvete ',sorvetetipo,' de ', sorvetesabor,'com cobertura de ',cobertura, 'vai custar: ', preço_final )
+
+#retorna todas as chaves do dicionario
+print(t_sorvete.keys())
+
+#retorna os valores do dicionario
+print(t_sorvete.values())
+
+#retorna os pares do dicionario
+print(t_sorvete.items())
+
