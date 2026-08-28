@@ -32,15 +32,12 @@ def val_entrada():
     while True:
         try: 
             numero = int(input("Digite um numero entre 1 e 15: "))
-            continue
                 
         except ValueError:
             print("Digite um numeral")
-
-        if check_type_num(numero):
             continue
 
-        if check_num(numero):
+        if check_type_num(numero) and check_num(numero):
             return numero
 
 
